@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.nav_menu {
+  background-color: #fff;
+}
+.nav_menu ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Saira", sans-serif;
+  color: #1b2336;
+}
+.nav_menu ul li a.active {
+  color: #2aaa94 !important;
+}
+.nav_menu .dropdown-toggle::after {
+  color: #2aaa94;
+}
+.nav_menu .nav_icons i {
+  color: #1b2336;
+  font-size: 20px;
+}
+.nav_menu .nav_icons .fa-circle-user {
+  padding: 0 14px;
+}
+.nav_menu .nav_account a {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Saira", sans-serif;
+  color: #4a4a4a;
+  text-decoration: underline;
+  padding: 18px 24px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.nav_menu .nav_account a:hover {
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(90deg, #083f9b, #7f56d9);
+}
+
+#banner {
+  padding-top: 286px;
+  padding-bottom: 250px;
+  background: url(../../img/banner_bg.png) no-repeat center/cover;
+  position: relative;
+}
+#banner .ban_main h6 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Saira", sans-serif;
+  color: #fff;
+  padding-bottom: 63px;
+}
+#banner .ban_main h1 {
+  font-size: 80px;
+  font-weight: normal;
+  font-family: "Rowdies", sans-serif;
+  color: #fff;
+  padding-bottom: 92px;
+}
+#banner .ban_main span {
+  color: #4be5ca;
+}
+#banner .ban_main a {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Saira", sans-serif;
+  color: #fff;
+}
+#banner .ban_main .ban_btn a {
+  font-weight: 600;
+  padding: 22px 30px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#banner .ban_img {
+  position: absolute;
+  right: 150px;
+  bottom: 0;
+}/*# sourceMappingURL=style.css.map */

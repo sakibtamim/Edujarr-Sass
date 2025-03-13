@@ -1,0 +1,46 @@
+#banner {
+  padding-top: 286px; //286
+  padding-bottom: 250px;
+  background: url(../../img/banner_bg.png) no-repeat center / cover;
+  position: relative;
+  .ban_main {
+    h6 {
+      font-size: 18px;
+      font-weight: 600;
+      font-family: $saira_font;
+      color: #fff;
+      padding-bottom: 63px;
+    }
+    h1 {
+      font-size: 80px;
+      font-weight: normal;
+      font-family: $rowdies_font;
+      color: #fff;
+      padding-bottom: 92px;
+    }
+    span {
+      color: #4be5ca;
+    }
+    a {
+      font-size: 18px;
+      font-weight: 500;
+      font-family: $saira_font;
+      color: #fff;
+    }
+    .ban_btn a {
+      font-weight: 600;
+      padding: 22px 30px;
+      border-radius: 10px;
+      border: 2px solid #fff;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+  }
+  .ban_img {
+    position: absolute;
+    right: 150px;
+    bottom: 0;
+  }
+}

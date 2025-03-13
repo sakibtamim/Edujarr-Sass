@@ -1,0 +1,44 @@
+.nav_menu {
+  background-color: #fff;
+  ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: $saira_font;
+    color: #1b2336;
+    &.active {
+      color: #2aaa94 !important;
+    }
+  }
+  .dropdown-toggle::after {
+    color: #2aaa94;
+  }
+  .nav_icons {
+    i {
+      color: #1b2336;
+      font-size: 20px;
+    }
+    .fa-circle-user {
+      padding: 0 14px;
+    }
+  }
+  .nav_account {
+    a {
+      font-size: 20px;
+      font-weight: 500;
+      font-family: $saira_font;
+      color: #4a4a4a;
+      text-decoration: underline;
+      padding: 18px 24px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      &:hover {
+        color: #fff;
+        text-decoration: none;
+        background: linear-gradient(90deg, #083f9b, #7f56d9);
+      }
+    }
+  }
+}
