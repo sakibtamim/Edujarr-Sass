@@ -1,6 +1,6 @@
 #banner {
   padding-top: 286px; //286
-  padding-bottom: 250px;
+  padding-bottom: 180px;
   background: url(../../img/banner_bg.png) no-repeat center / cover;
   position: relative;
   .ban_main {
@@ -17,30 +17,141 @@
       font-family: $rowdies_font;
       color: #fff;
       padding-bottom: 92px;
+      span {
+        color: #4be5ca;
+      }
     }
-    span {
-      color: #4be5ca;
+
+    .banner_btns {
+      padding-bottom: 79px;
+      a {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: $saira_font;
+        color: #fff;
+      }
+      .ban_btn a {
+        font-weight: 600;
+        padding: 22px 30px;
+        border-radius: 10px;
+        border: 2px solid #fff;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+      }
     }
-    a {
-      font-size: 18px;
-      font-weight: 500;
+    .ban_search {
+      form {
+        input {
+          position: relative;
+          font-size: 16px;
+          font-weight: normal;
+          font-family: $saira_font;
+          color: #4f547b;
+          width: 100%;
+          padding: 28px 35px;
+          border-radius: 7px;
+          outline: none;
+          border: none;
+          -webkit-border-radius: 7px;
+          -moz-border-radius: 7px;
+          -ms-border-radius: 7px;
+          -o-border-radius: 7px;
+        }
+        button {
+          position: absolute;
+          margin-left: -145px;
+          margin-top: 15px;
+          font-size: 15px;
+          font-weight: 500;
+          font-family: $inter_font;
+          color: #fff;
+          padding: 15px 30px;
+          border-radius: 10px;
+          background: $button_bg;
+          border: none;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          -ms-border-radius: 10px;
+          -o-border-radius: 10px;
+        }
+      }
+    }
+  }
+  .ban_txt {
+    position: relative;
+    h4 {
+      font-size: 16px;
+      font-weight: normal;
+      font-family: $rowdies_font;
+      color: #fff;
+      padding-bottom: 22px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: normal;
       font-family: $saira_font;
       color: #fff;
+      padding-right: 30px;
+      padding-bottom: 23px;
+      margin: 0;
     }
-    .ban_btn a {
-      font-weight: 600;
-      padding: 22px 30px;
-      border-radius: 10px;
-      border: 2px solid #fff;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
-      -o-border-radius: 10px;
+    span {
+      font-weight: bold;
+      font-family: $inter_font;
+      color: #5ab48e;
+      padding-right: 10px;
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      left: -37px;
+      top: 0;
+      height: 100%;
+      width: 1px;
+      background-color: #2aaa94;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      height: 24px;
+      width: 24px;
+      border-radius: 50%;
+      background-color: #81c7a2;
+      left: 3px;
+      top: 45%;
+      z-index: 1;
+      transform: translateX(-50px);
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      -webkit-transform: translateX(-50px);
+      -moz-transform: translateX(-50px);
+      -ms-transform: translateX(-50px);
+      -o-transform: translateX(-50px);
     }
   }
   .ban_img {
     position: absolute;
     right: 150px;
     bottom: 0;
+    z-index: 2;
   }
+  .ban_door {
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+}
+
+#banner_btm {
+  padding: 52px;
+  background: url(../../img/banner_btm.png) no-repeat center / cover;
 }

@@ -1,0 +1,84 @@
+#feature {
+  padding-top: 120px;
+  padding-bottom: 103px;
+  background: linear-gradient(#d9ecff, #f0f3ff00);
+  .fea_head {
+    padding-bottom: 94px;
+    h2 {
+      font-size: 45px;
+      font-weight: normal;
+      font-family: $rowdies_font;
+      color: #323232;
+      padding-bottom: 48px;
+      span {
+        color: #2aaa94;
+      }
+    }
+    p {
+      font-size: 25px;
+      font-weight: normal;
+      font-family: $saira_font;
+      color: #4e596b;
+    }
+  }
+
+  .fea_main {
+    padding-bottom: 91px;
+    .fea_body {
+      .card {
+        border-style: none;
+        background-color: transparent;
+        border-radius: 20px;
+        background-color: #fff;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+      }
+      .fea_inner_head {
+        p {
+          font-size: 14px;
+          font-weight: 500;
+          font-family: $saira_font;
+          color: #4e596b;
+        }
+      }
+      h5 {
+        font-size: 25px;
+        font-weight: 600;
+        font-family: $saira_font;
+        color: #324361;
+        padding-bottom: 33px;
+        margin: 0;
+      }
+      .fea_inner_btm {
+        p {
+          font-size: 22px;
+          font-weight: 600;
+          font-family: $saira_font;
+          color: #4e596b;
+          margin: 0;
+        }
+        i {
+          font-size: 21px;
+          color: #5e6775;
+        }
+      }
+    }
+  }
+  .fea_btn {
+    a {
+      font-size: 20px;
+      font-weight: 500;
+      font-family: $saira_font;
+      color: #fff;
+      padding: 18px 26px;
+      border-radius: 10px;
+      background: $button_bg;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+  }
+}

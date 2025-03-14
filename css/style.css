@@ -66,7 +66,7 @@ img {
 
 #banner {
   padding-top: 286px;
-  padding-bottom: 250px;
+  padding-bottom: 180px;
   background: url(../../img/banner_bg.png) no-repeat center/cover;
   position: relative;
 }
@@ -84,16 +84,19 @@ img {
   color: #fff;
   padding-bottom: 92px;
 }
-#banner .ban_main span {
+#banner .ban_main h1 span {
   color: #4be5ca;
 }
-#banner .ban_main a {
+#banner .ban_main .banner_btns {
+  padding-bottom: 79px;
+}
+#banner .ban_main .banner_btns a {
   font-size: 18px;
   font-weight: 500;
   font-family: "Saira", sans-serif;
   color: #fff;
 }
-#banner .ban_main .ban_btn a {
+#banner .ban_main .banner_btns .ban_btn a {
   font-weight: 600;
   padding: 22px 30px;
   border-radius: 10px;
@@ -103,8 +106,212 @@ img {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+#banner .ban_main .ban_search form input {
+  position: relative;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Saira", sans-serif;
+  color: #4f547b;
+  width: 100%;
+  padding: 28px 35px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+#banner .ban_main .ban_search form button {
+  position: absolute;
+  margin-left: -145px;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #083f9b, #7f56d9);
+  border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#banner .ban_txt {
+  position: relative;
+}
+#banner .ban_txt h4 {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Rowdies", sans-serif;
+  color: #fff;
+  padding-bottom: 22px;
+}
+#banner .ban_txt p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Saira", sans-serif;
+  color: #fff;
+  padding-right: 30px;
+  padding-bottom: 23px;
+  margin: 0;
+}
+#banner .ban_txt span {
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  color: #5ab48e;
+  padding-right: 10px;
+}
+#banner .ban_txt::after {
+  position: absolute;
+  content: "";
+  left: -37px;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #2aaa94;
+}
+#banner .ban_txt::before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #81c7a2;
+  left: 3px;
+  top: 45%;
+  z-index: 1;
+  transform: translateX(-50px);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translateX(-50px);
+  -moz-transform: translateX(-50px);
+  -ms-transform: translateX(-50px);
+  -o-transform: translateX(-50px);
+}
 #banner .ban_img {
   position: absolute;
   right: 150px;
   bottom: 0;
+  z-index: 2;
+}
+#banner .ban_door {
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+#banner_btm {
+  padding: 52px;
+  background: url(../../img/banner_btm.png) no-repeat center/cover;
+}
+
+#feature {
+  padding-top: 120px;
+  padding-bottom: 103px;
+  background: linear-gradient(#d9ecff, rgba(240, 243, 255, 0));
+}
+#feature .fea_head {
+  padding-bottom: 94px;
+}
+#feature .fea_head h2 {
+  font-size: 45px;
+  font-weight: normal;
+  font-family: "Rowdies", sans-serif;
+  color: #323232;
+  padding-bottom: 48px;
+}
+#feature .fea_head h2 span {
+  color: #2aaa94;
+}
+#feature .fea_head p {
+  font-size: 25px;
+  font-weight: normal;
+  font-family: "Saira", sans-serif;
+  color: #4e596b;
+}
+#feature .fea_main {
+  padding-bottom: 91px;
+}
+#feature .fea_main .fea_body .card {
+  border-style: none;
+  background-color: transparent;
+  border-radius: 20px;
+  background-color: #fff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#feature .fea_main .fea_body .fea_inner_head p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Saira", sans-serif;
+  color: #4e596b;
+}
+#feature .fea_main .fea_body h5 {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Saira", sans-serif;
+  color: #324361;
+  padding-bottom: 33px;
+  margin: 0;
+}
+#feature .fea_main .fea_body .fea_inner_btm p {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Saira", sans-serif;
+  color: #4e596b;
+  margin: 0;
+}
+#feature .fea_main .fea_body .fea_inner_btm i {
+  font-size: 21px;
+  color: #5e6775;
+}
+#feature .fea_btn a {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Saira", sans-serif;
+  color: #fff;
+  padding: 18px 26px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #083f9b, #7f56d9);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#learn {
+  padding-top: 113px;
+  padding-bottom: 144px;
+  background: url(../../img/learn_ban_bg.png) no-repeat center/cover;
+}
+#learn .learn_head {
+  padding-bottom: 115px;
+}
+#learn .learn_head h2 {
+  font-size: 45px;
+  font-weight: bold;
+  font-weight: "Rowdies", sans-serif;
+  color: #fff;
+  padding-bottom: 29px;
+}
+#learn .learn_head h2 span {
+  color: #4be5ca;
+}
+#learn .learn_head p {
+  font-size: 25px;
+  font-weight: normal;
+  font-family: "Saira", sans-serif;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

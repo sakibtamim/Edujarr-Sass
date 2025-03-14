@@ -1,0 +1,24 @@
+#learn {
+  padding-top: 113px;
+  padding-bottom: 144px;
+  background: url(../../img/learn_ban_bg.png) no-repeat center / cover;
+  .learn_head {
+    padding-bottom: 115px;
+    h2 {
+      font-size: 45px;
+      font-weight: bold;
+      font-weight: $rowdies_font;
+      color: #fff;
+      padding-bottom: 29px;
+      span {
+        color: #4be5ca;
+      }
+    }
+    p {
+      font-size: 25px;
+      font-weight: normal;
+      font-family: $saira_font;
+      color: #fff;
+    }
+  }
+}
