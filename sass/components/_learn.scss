@@ -21,4 +21,43 @@
       color: #fff;
     }
   }
+  .learn_main {
+    img {
+      padding-bottom: 36px;
+    }
+    h5 {
+      font-size: 25px;
+      font-weight: bold;
+      font-family: $rowdies_font;
+      color: #fff;
+      padding-bottom: 29px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: $saira_font;
+      color: #fff;
+    }
+    .mdl_body {
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        left: -60px;
+        top: 0;
+        height: 100%;
+        width: 2px;
+        background: linear-gradient(#ffffff, #ffffff00);
+      }
+      &::before {
+        position: absolute;
+        content: "";
+        right: -60px;
+        top: 0;
+        height: 100%;
+        width: 2px;
+        background: linear-gradient(#ffffff, #ffffff00);
+      }
+    }
+  }
 }
