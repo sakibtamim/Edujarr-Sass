@@ -401,4 +401,161 @@ img {
   font-weight: 500;
   font-family: "Saira", sans-serif;
   color: #4f547b;
+}
+
+#testimonials {
+  padding-top: 135px;
+  padding-bottom: 147px;
+  background: linear-gradient(0deg, #dbedff, rgba(219, 237, 255, 0));
+}
+#testimonials .test_head {
+  padding-bottom: 144px;
+}
+#testimonials .test_head h2 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Rowdies", sans-serif;
+  color: #1d1d45;
+  padding-bottom: 52px;
+}
+#testimonials .test_head h2 span {
+  color: #2aaa94;
+}
+#testimonials .test_head p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Saira", sans-serif;
+  color: #4e596b;
+  padding-bottom: 64px;
+}
+#testimonials .test_head a {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Saira", sans-serif;
+  color: #fff;
+  padding: 16px 30px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #083f9b, #7f56d9);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#testimonials .test_video {
+  padding-bottom: 132px;
+}
+#testimonials .test_video .test_vdo {
+  position: relative;
+}
+#testimonials .test_video .test_play {
+  width: 180px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+#testimonials .test_main {
+  padding-bottom: 94px;
+}
+#testimonials .test_main h2 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Rowdies", sans-serif;
+  color: #2aaa94;
+  padding-bottom: 42px;
+}
+#testimonials .test_main p {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #4e596b;
+}
+#testimonials .test_body .card {
+  padding: 0;
+  border-style: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+#testimonials .test_body .card .test_pro {
+  padding-bottom: 42px;
+}
+#testimonials .test_body .card .test_pro img {
+  width: 65px;
+}
+#testimonials .test_body .card .test_pro h5 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Rowdies", sans-serif;
+  color: #1d1d45;
+}
+#testimonials .test_body .card p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Saira", sans-serif;
+  color: #7e7eaa;
+  padding-bottom: 50px;
+  margin: 0;
+}
+#testimonials .test_body .card i {
+  font-size: 22px;
+  color: #fab437;
+}
+#testimonials .test_body .card .icon_last {
+  color: #cbc2ff;
+}
+
+#footer {
+  padding-top: 118px;
+  background: linear-gradient(90deg, #331da8, #865aef);
+}
+#footer .footer_main {
+  padding-bottom: 89px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.323);
+}
+#footer .footer_main img {
+  padding-bottom: 74px;
+}
+#footer .footer_main p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Saira", sans-serif;
+  color: #fff;
+  margin: 0;
+}
+#footer .footer_main h5 {
+  font-size: 25px;
+  font-weight: bold;
+  font-weight: "Rowdies", sans-serif;
+  color: #fff;
+  padding-bottom: 100px;
+}
+#footer .footer_main a {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Saira", sans-serif;
+  color: #fff;
+}
+#footer .footer_main i {
+  font-size: 16px;
+  color: #fff;
+}
+#footer .footer {
+  padding: 33px 0 40px;
+}
+#footer .footer p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Saira", sans-serif;
+  color: #fff;
+}
+#footer .footer i {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

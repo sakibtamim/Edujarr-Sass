@@ -1,0 +1,48 @@
+#footer {
+  padding-top: 118px;
+  background: linear-gradient(90deg, #331da8, #865aef);
+  .footer_main {
+    padding-bottom: 89px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.323);
+    img {
+      padding-bottom: 74px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      font-family: $saira_font;
+      color: #fff;
+      margin: 0;
+    }
+    h5 {
+      font-size: 25px;
+      font-weight: bold;
+      font-weight: $rowdies_font;
+      color: #fff;
+      padding-bottom: 100px;
+    }
+    a {
+      font-size: 16px;
+      font-weight: normal;
+      font-family: $saira_font;
+      color: #fff;
+    }
+    i {
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+  .footer {
+    padding: 33px 0 40px;
+    p {
+      margin: 0;
+      font-size: 18px;
+      font-weight: normal;
+      font-family: $saira_font;
+      color: #fff;
+    }
+    i {
+      color: #fff;
+    }
+  }
+}

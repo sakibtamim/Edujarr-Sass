@@ -1,0 +1,109 @@
+#testimonials {
+  padding-top: 135px;
+  padding-bottom: 147px;
+  background: linear-gradient(0deg, #dbedff, #dbedff00);
+  .test_head {
+    padding-bottom: 144px;
+    h2 {
+      font-size: 45px;
+      font-weight: bold;
+      font-family: $rowdies_font;
+      color: #1d1d45;
+      padding-bottom: 52px;
+      span {
+        color: #2aaa94;
+      }
+    }
+    p {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: $saira_font;
+      color: #4e596b;
+      padding-bottom: 64px;
+    }
+    a {
+      font-size: 20px;
+      font-weight: 500;
+      font-family: $saira_font;
+      color: #fff;
+      padding: 16px 30px;
+      border-radius: 10px;
+      background: $button_bg;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+  }
+  .test_video {
+    padding-bottom: 132px;
+    .test_vdo {
+      position: relative;
+    }
+    .test_play {
+      width: 180px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+    }
+  }
+  .test_main {
+    padding-bottom: 94px;
+    h2 {
+      font-size: 45px;
+      font-weight: bold;
+      font-family: $rowdies_font;
+      color: #2aaa94;
+      padding-bottom: 42px;
+    }
+    p {
+      font-size: 25px;
+      font-weight: 500;
+      font-family: $inter_font;
+      color: #4e596b;
+    }
+  }
+  .test_body {
+    .card {
+      padding: 0;
+      border-style: none;
+      border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      -o-border-radius: 30px;
+      .test_pro {
+        padding-bottom: 42px;
+        img {
+          width: 65px;
+        }
+        h5 {
+          font-size: 25px;
+          font-weight: bold;
+          font-family: $rowdies_font;
+          color: #1d1d45;
+        }
+      }
+      p {
+        font-size: 18px;
+        font-weight: normal;
+        font-family: $saira_font;
+        color: #7e7eaa;
+        padding-bottom: 50px;
+        margin: 0;
+      }
+      i {
+        font-size: 22px;
+        color: #fab437;
+      }
+      .icon_last {
+        color: #cbc2ff;
+      }
+    }
+  }
+}
