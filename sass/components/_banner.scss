@@ -1,7 +1,7 @@
 #banner {
   padding-top: 286px; //286
   padding-bottom: 180px;
-  background: url(../../img/banner_bg.png) no-repeat center / cover;
+  background: url("../img/banner_bg.png") no-repeat center / cover;
   position: relative;
   .ban_main {
     h6 {
@@ -153,5 +153,5 @@
 
 #banner_btm {
   padding: 52px;
-  background: url(../../img/banner_btm.png) no-repeat center / cover;
+  background: url(../img/banner_btm.png) no-repeat center / cover;
 }

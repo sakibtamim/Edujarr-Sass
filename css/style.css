@@ -67,7 +67,7 @@ img {
 #banner {
   padding-top: 286px;
   padding-bottom: 180px;
-  background: url(../../img/banner_bg.png) no-repeat center/cover;
+  background: url("../img/banner_bg.png") no-repeat center/cover;
   position: relative;
 }
 #banner .ban_main h6 {
@@ -212,7 +212,7 @@ img {
 
 #banner_btm {
   padding: 52px;
-  background: url(../../img/banner_btm.png) no-repeat center/cover;
+  background: url(../img/banner_btm.png) no-repeat center/cover;
 }
 
 #feature {
@@ -294,7 +294,7 @@ img {
 #learn {
   padding-top: 113px;
   padding-bottom: 144px;
-  background: url(../../img/learn_ban_bg.png) no-repeat center/cover;
+  background: url(../img/learn_ban_bg.png) no-repeat center/cover;
 }
 #learn .learn_head {
   padding-bottom: 115px;
